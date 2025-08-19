@@ -1,10 +1,12 @@
 {
-  "name": "@testing/design-system",
+  "name": "@aguscma33/design-system",
   "version": "1.0.0",
   "main": "dist/design-system.cjs.js",
   "module": "dist/design-system.es.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -15,10 +17,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^18",
+    "react-dom": "^18",
+    "testing-library": "^0.0.2"
   },
-    "peerDependencies": {
+  "peerDependencies": {
     "react": "^18",
     "react-dom": "^18"
   },
